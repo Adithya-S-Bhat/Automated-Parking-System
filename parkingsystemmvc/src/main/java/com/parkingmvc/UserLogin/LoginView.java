@@ -3,13 +3,7 @@ package com.parkingmvc.UserLogin;
 import com.parkingmvc.GeoLocation.*;
 
 import java.awt.BorderLayout;
-import javax.swing.GroupLayout;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 import com.parkingmvc.WelcomeBack.*;
 import com.parkingmvc.Database;
@@ -20,7 +14,7 @@ public class LoginView {
     private JLabel lblUserID;
     private JLabel lblPassword;
     private JTextField txtUserID;
-    private JTextField txtPassword;
+    private JPasswordField txtPassword;
     private JButton btnLogin;
     private JButton btnReset;
     private JButton btnCancel;
@@ -40,7 +34,7 @@ public class LoginView {
         lblUserID = new JLabel("User ID");
         lblPassword = new JLabel("Password");
         txtUserID = new JTextField(20);
-        txtPassword = new JTextField(20);
+        txtPassword = new JPasswordField(20);
         btnLogin = new JButton("Login");
         btnReset = new JButton("Reset");
         btnCancel = new JButton("Cancel");

@@ -1,5 +1,13 @@
 # Automated-Parking-System-JavaMVC
 
+## UE19CS353 OOAD Project
+
+# Team Members
+
+- Abhishek Aditya BS, PES1UG19CS019
+- A Sai Chaithanya, PES1UG19CS002
+- Adithya MS, PES1UG19CS027
+
 # Problem Description
 
 Automated Parking System allows users to park at the nearest parking location without human intervention. The application provides a default interface where a user can select if he is an admin of a parking lot or a user. If the user selects the option Parking lot admin then he is directed to a seperate interface where they can add their parking locations by specifying the parking lot name, address, latitude, longitude, total capacity and currently filled slots. If the option selected is User, then he is directed to a user registration form if he is using the application for the first time. The registration form asks users to enter their details like name, userID, password, phone number, Driver’s Licence number, Car Model, colour, plate number.
@@ -10,7 +18,25 @@ When the user comes back to the application to unpark his car, after he logs in,
 
 # Analysis and Design Models
 
-1. Use Case Diagram
+<p align="center">
+  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Use%20Case%20Diagram/UseCaseDiagram.jpg" />
+</p>
+<p align="center"> Figure 1: Use Case Diagram </p>
+
+<p align="center">
+  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Class%20Diagram/ClassDiagram1.jpg" />
+</p>
+<p align="center"> Figure 2: Class Diagram Diagram </p>
+
+<p align="center">
+  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/State%20Diagram/StatechartDiagram.jpg" />
+</p>
+<p align="center"> Figure 3: State Diagram </p>
+
+<p align="center">
+  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Activity%20Diagram/ActivityDiagram1.jpg" />
+</p>
+<p align="center"> Figure 4: Activity Diagram </p>
 
 # Tools and Frameworks Used
 

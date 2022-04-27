@@ -13,7 +13,8 @@ public class GeoLocationModel {
     private String error_string = "";
 
     public void getGeoLocation() throws IOException, InterruptedException {
-        String command = "python /Users/abhishek-aditya-bs/Desktop/ParkingSystemMVC/parkingsystemmvc/src/main/java/com/parkingmvc/GeoLocation/GeoLocater.py";
+        //String command = "python /Users/abhishek-aditya-bs/Desktop/ParkingSystemMVC/parkingsystemmvc/src/main/java/com/parkingmvc/GeoLocation/GeoLocater.py";
+        String command = "python C:\\Users\\adith\\Downloads\\ParkingSystemMVC\\parkingsystemmvc\\src\\main\\java\\com\\parkingmvc\\GeoLocation\\GeoLocater.py";
         Process p = Runtime.getRuntime().exec(command);
         p.waitFor();
         BufferedReader bri = new BufferedReader(new InputStreamReader(p.getInputStream()));

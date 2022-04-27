@@ -5,13 +5,7 @@ import com.parkingmvc.UserLogin.LoginModel;
 import com.parkingmvc.UserLogin.LoginView;
 import com.parkingmvc.Database;
 import java.awt.BorderLayout;
-import javax.swing.GroupLayout;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 public class RegistrationView {
 
@@ -32,8 +26,8 @@ public class RegistrationView {
     private JTextField firstnameTextField;
     private JTextField lastnameTextField;
     private JTextField userIDTextField;
-    private JTextField passwordTextField;
-    private JTextField confirmPasswordTextField;
+    private JPasswordField passwordTextField;
+    private JPasswordField confirmPasswordTextField;
     private JTextField emailTextField;
     private JTextField phoneTextField;
     private JTextField driversLicenseTextField;
@@ -70,8 +64,8 @@ public class RegistrationView {
         firstnameTextField = new JTextField();
         lastnameTextField = new JTextField();
         userIDTextField = new JTextField();
-        passwordTextField = new JTextField();
-        confirmPasswordTextField = new JTextField();
+        passwordTextField = new JPasswordField();
+        confirmPasswordTextField = new JPasswordField();
         emailTextField = new JTextField();
         phoneTextField = new JTextField();
         driversLicenseTextField = new JTextField();
@@ -299,10 +293,10 @@ public class RegistrationView {
     public void setUserIDTextField(JTextField userIDTextField) {
         this.userIDTextField = userIDTextField;
     }
-    public void setPasswordTextField(JTextField passwordTextField) {
+    public void setPasswordTextField(JPasswordField passwordTextField) {
         this.passwordTextField = passwordTextField;
     }
-    public void setConfirmPasswordTextField(JTextField confirmPasswordTextField) {
+    public void setConfirmPasswordTextField(JPasswordField confirmPasswordTextField) {
         this.confirmPasswordTextField = confirmPasswordTextField;
     }
     public void setEmailTextField(JTextField emailTextField) {

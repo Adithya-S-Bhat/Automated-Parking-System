@@ -47,11 +47,11 @@ public class UserLogoutView {
         heading2 = new JLabel("The price for parking at " + parkingLotSelected + " is as follows:");
 
         spacing = new JLabel(" ");
-        price2hrs = new JLabel("First 2 hours: 20$");
-        price3hrs = new JLabel("First 3 hours: 25$");
-        priceAdditionalAbove3hrs = new JLabel("Every Additional hour above 3 hours: 10$");
-        price24hrs = new JLabel("First 24 hours: 100$");
-        priceAdditionalAbove24hrs = new JLabel("Every Additional hour above 24 hours: 20$");
+        price2hrs = new JLabel("First 2 hours: $20");
+        price3hrs = new JLabel("First 3 hours: $25");
+        priceAdditionalAbove3hrs = new JLabel("Every Additional hour above 3 hours: $10");
+        price24hrs = new JLabel("First 24 hours: $100");
+        priceAdditionalAbove24hrs = new JLabel("Every Additional hour above 24 hours: $20");
 
         logout = new JButton("Logout");
 

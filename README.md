@@ -19,22 +19,22 @@ When the user comes back to the application to unpark his car, after he logs in,
 # Analysis and Design Models
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Use%20Case%20Diagram/UseCaseDiagram.jpg" />
+  <img width="600" height="400" src="https://github.com/Adithya-S-Bhat/Automated-Parking-System/blob/main/UML%20Diagrams/Use%20Case%20Diagram/UseCaseDiagram.jpg" />
 </p>
 <p align="center"> Figure 1: Use Case Diagram </p>
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Class%20Diagram/ClassDiagram1.jpg" />
+  <img width="600" height="400" src="https://github.com/Adithya-S-Bhat/Automated-Parking-System/blob/main/UML%20Diagrams/Class%20Diagram/ClassDiagram1.jpg" />
 </p>
 <p align="center"> Figure 2: Class Diagram Diagram </p>
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/State%20Diagram/StatechartDiagram.jpg" />
+  <img width="600" height="400" src="https://github.com/Adithya-S-Bhat/Automated-Parking-System/blob/main/UML%20Diagrams/State%20Diagram/StatechartDiagram.jpg" />
 </p>
 <p align="center"> Figure 3: State Diagram </p>
 
 <p align="center">
-  <img width="600" height="400" src="https://github.com/Abhishek-Aditya-bs/Automated-Parking-System/blob/main/UML%20Diagrams/Activity%20Diagram/ActivityDiagram1.jpg" />
+  <img width="600" height="400" src="https://github.com/Adithya-S-Bhat/Automated-Parking-System/blob/main/UML%20Diagrams/Activity%20Diagram/ActivityDiagram1.jpg" />
 </p>
 <p align="center"> Figure 4: Activity Diagram </p>
 
@@ -67,9 +67,33 @@ When the user comes back to the application to unpark his car, after he logs in,
 
 5. The Composition Over Inheritance Principle: One should often prefer composition over inheritance when designing their systems. In Java, this means that we should more often define interfaces and implement them, rather than defining classes and extending them. This principle was used throughout the project where objects of the database were created inside the classes using it, instead of inheriting the functionalities of the database class. Another example where this principle was used was using the objects of the view and controller of various modules during the current frame dispose function and calling the next frame by using the view and controller of the required module.
 
+# Installation and Running
+
+- Clone the repository
+
+- Open the application as a Java Maven Project
+
+- In the terminal run
+
+```python
+pip install geocoder
+pip install geopy
+```
+
+- cd src/main/java/com/parkingmvc/
+
+- In Line 16 in `src/main/java/com/parkingmvc/GeoLocation/GeoLocationModel.java` change the absolute path of `GeoLocater.py` file
+
+```java
+String command = "python /Users/adithya-ms/Desktop/ParkingSystemMVC/parkingsystemmvc/src/main/java/com/parkingmvc/GeoLocation/GeoLocater.py";
+```
+
+- Run the `app.java`
+
+- Use MongoDB compass to get a better view of all the database activities
+
 # LICENSE
 MIT
-
 
 
 

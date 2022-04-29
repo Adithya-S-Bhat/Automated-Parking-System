@@ -4,9 +4,9 @@
 
 # Team Members
 
-- Abhishek Aditya BS, PES1UG19CS019
-- A Sai Chaithanya, PES1UG19CS002
-- Adithya MS, PES1UG19CS027
+- [Abhishek Aditya BS](https://github.com/Abhishek-Aditya-bs), PES1UG19CS019
+- [A Sai Chaithanya](https://github.com/A-Sai-Chaithanya), PES1UG19CS002
+- [Adithya MS](https://github.com/Adithya-S-Bhat), PES1UG19CS027
 
 # Problem Description
 
